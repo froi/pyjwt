@@ -30,7 +30,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 tests_require = [
-    'pytest >3,<4',
+    'pytest >3,<7',
     'pytest-cov',
     'pytest-runner',
 ]
